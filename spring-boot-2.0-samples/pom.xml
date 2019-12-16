@@ -15,6 +15,7 @@
     <modules>
         <module>first-app-by-gui</module>
         <module>auto-configuration-sample</module>
+        <module>production-ready-sample</module>
     </modules>
 
 
