@@ -14,6 +14,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>first-app-by-gui</module>
+        <module>auto-configuration-sample</module>
     </modules>
 
 
