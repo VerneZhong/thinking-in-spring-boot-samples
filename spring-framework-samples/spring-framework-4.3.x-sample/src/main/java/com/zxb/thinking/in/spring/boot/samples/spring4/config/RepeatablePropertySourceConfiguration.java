@@ -12,6 +12,7 @@ import java.lang.annotation.Repeatable;
  * @author Mr.zxb
  * @date 2020-01-07 15:29
  */
+// 重复标注 @PropertySource
 @PropertySource("classpath:/default.properties")
 @PropertySource("classpath:/overview.properties")
 @Configuration
