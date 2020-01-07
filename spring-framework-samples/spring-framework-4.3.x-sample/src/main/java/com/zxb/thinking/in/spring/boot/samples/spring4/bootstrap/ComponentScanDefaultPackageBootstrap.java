@@ -21,6 +21,7 @@ public class ComponentScanDefaultPackageBootstrap {
         AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext(ComponentScanDefaultPackageBootstrap.class);
         // 输出当前 Spring 应用上下文中所有注册的 Bean 名称
+        System.out.println("当前 Spring 应用上下文中所有注册的 Bean 名称：");
         Stream.of(context.getBeanDefinitionNames()).map(name -> "\t" + name)
                 .forEach(System.out::println);
         // 关闭上下文
