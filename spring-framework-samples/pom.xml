@@ -18,6 +18,7 @@
     <modules>
         <module>spring-framework-2.5.6-sample</module>
         <module>spring-framework-3.0.x-sample</module>
+        <module>spring-framework-3.2.x-sample</module>
     </modules>
 
     <properties>
