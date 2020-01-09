@@ -14,6 +14,7 @@ import org.springframework.context.event.EventListener;
  *
  * @author Mr.zxb
  * @date 2020-01-09 16:31
+ * @see EventListener
  */
 public class AnnotatedEventListenerBootstrap {
 

@@ -14,6 +14,7 @@ import org.springframework.context.event.*;
  * 事件监听器最多只支持一个参数 {@link ApplicationEvent} 及其子类
  * @author Mr.zxb
  * @date 2020-01-09 16:44
+ * @see EventListener
  */
 public class AnnotatedEventListenerOnMultiEventsBootstrap {
 
