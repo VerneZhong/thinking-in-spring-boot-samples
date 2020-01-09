@@ -1,6 +1,7 @@
 package com.zxb.thinking.in.spring.boot.samples.spring5.annotation;
 
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.lang.annotation.*;
@@ -23,4 +24,10 @@ public @interface TransactionalService {
      * @return
      */
     String name() default "";
+
+    /**
+     * 覆盖 {@link Transactional#transactionManager()} 默认值
+     * @return {@link PlatformTransactionManager} Bean 名称，默认关联 "txManager" Bean
+     */
+    String transactionManager() default "txManager2";
 }
