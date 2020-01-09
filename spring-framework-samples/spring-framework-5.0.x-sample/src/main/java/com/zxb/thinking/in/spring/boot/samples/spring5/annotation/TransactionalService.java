@@ -17,4 +17,10 @@ import java.lang.annotation.*;
 @Transactional
 @Service("transactionalService")
 public @interface TransactionalService {
+
+    /**
+     * 服务Bean名称
+     * @return
+     */
+    String name() default "";
 }
