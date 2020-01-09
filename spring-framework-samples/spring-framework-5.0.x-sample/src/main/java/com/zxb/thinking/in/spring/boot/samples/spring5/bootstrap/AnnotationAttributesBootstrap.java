@@ -1,6 +1,7 @@
 package com.zxb.thinking.in.spring.boot.samples.spring5.bootstrap;
 
 import com.zxb.thinking.in.spring.boot.samples.spring5.annotation.TransactionalService;
+import com.zxb.thinking.in.spring.boot.samples.spring5.bean.TransactionalServiceBean;
 import org.springframework.core.annotation.AnnotatedElementUtils;
 import org.springframework.core.annotation.AnnotationAttributes;
 import org.springframework.stereotype.Service;
@@ -18,7 +19,9 @@ public class AnnotationAttributesBootstrap {
 
     public static void main(String[] args) {
 
-        AnnotatedElement annotatedElement = TransactionalService.class;
+//        AnnotatedElement annotatedElement = TransactionalService.class;
+
+        AnnotatedElement annotatedElement = TransactionalServiceBean.class;
 
         // 获取 @Service 注解属性独享
         AnnotationAttributes serviceAttributes = AnnotatedElementUtils.getMergedAnnotationAttributes(annotatedElement

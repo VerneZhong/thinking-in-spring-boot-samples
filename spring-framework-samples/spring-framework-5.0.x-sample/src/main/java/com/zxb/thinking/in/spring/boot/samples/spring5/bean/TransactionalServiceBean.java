@@ -8,7 +8,7 @@ import com.zxb.thinking.in.spring.boot.samples.spring5.annotation.TransactionalS
  * @author Mr.zxb
  * @date 2020-01-09 15:04
  */
-@TransactionalService
+@TransactionalService(name = "transactionalService")
 public class TransactionalServiceBean {
 
     public void save() {
