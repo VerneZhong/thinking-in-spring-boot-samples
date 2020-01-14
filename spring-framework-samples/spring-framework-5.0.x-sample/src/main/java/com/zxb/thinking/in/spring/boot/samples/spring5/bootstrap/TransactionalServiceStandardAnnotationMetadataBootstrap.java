@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * {@link TransactionalService @TransactionalService} {@link StandardAnnotationMetadata}实现 引导类 class
+ * {@link TransactionalService @TransactionalService} 基于Java反射API的 {@link StandardAnnotationMetadata} 实现 引导类 class
  *
  * @author Mr.zxb
  * @date 2020-01-09 10:55

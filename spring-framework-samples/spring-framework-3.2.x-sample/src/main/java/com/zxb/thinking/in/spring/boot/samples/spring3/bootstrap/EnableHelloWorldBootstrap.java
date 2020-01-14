@@ -5,7 +5,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.Configuration;
 
 /**
- * {@link EnableHelloWorld} 引导类 class
+ * 注解驱动实现"@Enable模块驱动"  {@link EnableHelloWorld} 引导类 class
  *
  * @author Mr.zxb
  * @date 2020-01-06 15:53
